@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto+Mono:wght@300&display=swap');
+@media screen {
+    body{
+        margin: 0px;
+        font-family: Roboto Mono;
+        font-size: 1.1rem;
+    }
+    header{
+        background-image: url(river.jpg);
+        background-size: 100% 100%;
+    }
+    .header__photo{
+        position: relative;
+        top: 60px;
+    }
+    .name{
+        color: darkblue;
+    }
+    .job{
+        color: blueviolet;
+    }
+    .paragraph{
+        margin-left: 20px;
+        font-size: 1.5rem;
+    }
+}
+@media print {
+    body{
+        margin: 0px;
+        font-family: Roboto Mono;
+        font-size: 0.5rem;
+    }
+    header{
+        background-image: url(river.jpg);
+        background-size: 100% 100%;
+    }
+    .header__photo{
+        position: relative;
+        top: 60px;
+    }
+    .paragraph{
+        margin-left: 20px;
+        font-size: 1.0rem;
+    }
+    .education{
+        margin-top: -200px;
+    }
+}
