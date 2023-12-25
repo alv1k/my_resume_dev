@@ -6,7 +6,7 @@
         font-size: 1.1rem;
     }
     header{
-        background-image: url(https://gas-kvas.com/uploads/posts/2023-02/1675469461_gas-kvas-com-p-fonovii-risunok-kod-2.jpg);
+        background-image: url(https://etosibir.ru/wp-content/uploads/2017/05/FWcvwflMW641.jpg);
         background-size: 100% 100%;
     }
     .header__photo{
@@ -23,6 +23,13 @@
         margin-left: 20px;
         font-size: 1.5rem;
     }
+    .smth_like_portfolio li{
+        list-style: "\27A1";
+        list-style-position: inside;
+    }
+    .smth_like_portfolio a{
+        text-decoration: none;
+    }
 }
 @media print {
     body{
@@ -31,18 +38,22 @@
         font-size: 0.5rem;
     }
     header{
-        background-image: url(river.jpg);
-        background-size: 100% 100%;
+        height: 50px;
     }
     .header__photo{
-        position: relative;
-        top: 60px;
+        width: 0px;
+    }
+    .info{
+        display: flex;
     }
     .paragraph{
         margin-left: 20px;
-        font-size: 1.0rem;
+        font-size: 0.7rem;
     }
     .education{
         margin-top: -200px;
+    }
+    footer{
+
     }
 }
